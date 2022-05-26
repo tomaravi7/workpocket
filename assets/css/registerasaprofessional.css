@@ -1,0 +1,37 @@
+.contain-page{
+    background-image: url(../images/professionalsingup.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.glass{
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    box-shadow: 0 15px 25px rgba(18, 20, 145, 0.2);
+    height: auto;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(56, 49, 148, 0.2);
+    padding: 10px;
+}
+select{
+    height: 2.4rem;
+    border: 1px solid;
+    border-color: lightgrey;
+    border-radius: 5%;
+}
+.terms{
+    padding-left: 38px !important;
+}
+.custom-bttn{
+    margin: 3px;
+    padding: 12px !important;
+    font-size: 1.1rem !important;
+    background-color: rgb(240,240,255) !important;
+    color: blue !important;
+}
+.custom-bttn:hover{
+    background-color: black !important;
+    color: white !important;
+    transition: 100ms;
+}

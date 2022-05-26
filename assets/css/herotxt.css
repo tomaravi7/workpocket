@@ -1,0 +1,31 @@
+.content {
+    text-align: center;
+}
+.custom-animation {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+}
+.letters {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@media screen and (max-width: 992px){
+    .custom-animation {
+        position: relative;
+        top: 42px;
+        font-weight: 900;
+        font-size: 3.5em;
+    }
+}
+@media screen and (max-width: 747px){
+    .custom-animation {
+        position: relative;
+        top: 72px;
+        font-weight: 900;
+        font-size: 2.5em;
+    }
+}

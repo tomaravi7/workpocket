@@ -1,0 +1,38 @@
+.glass{
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 15px 25px rgba(56, 49, 148, 0.4) !important;
+    border-radius: 15px !important;
+    backdrop-filter: blur(8px);
+    background-color: rgba(56, 49, 148, 0.4) !important;
+    padding: 20px 20px;
+}
+#uploaddoc1{
+    background-color: transparent;
+    border: 0px;
+}
+.card{
+    border-radius: 15px !important;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+}
+input[type="file"] {
+    /* display: none; */
+    background-color: transparent;
+}
+.custom-file-upload {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.custom-bttn{
+    margin: 3px;
+    padding: 12px !important;
+    font-size: 1.1rem !important;
+    background-color: rgb(240,240,255) !important;
+    color: blue !important;
+}
+.form-cstm{
+    overflow-y: scroll;
+    max-height: 700px;
+    /* color: aliceblue !important; */
+}

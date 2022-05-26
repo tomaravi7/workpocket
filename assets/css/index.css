@@ -1,0 +1,251 @@
+* {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(52, 119, 243);
+}
+
+.top-nav {
+    background: rgba(27, 61, 214, 0.3);
+}
+
+/* top search bar which appears after scrolling down */
+#custom-top {
+    position: fixed;
+    top: -100px;
+    transition: top 0.3s;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(80, 135, 230);
+    z-index: 11;
+}
+
+.img-custom-top {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero1.jpg');
+    padding: 120px;
+    height: 100%;
+    min-height: 200px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.findin {
+    height: 65px !important;
+    min-width: 110px !important;
+}
+
+.custom-img {
+    min-height: 300px;
+    width: auto;
+}
+
+.custom-img-whyus {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+@media screen and (max-width: 700px) {
+    .hero {
+        padding: 20px;
+    }
+
+    .disappear {
+        display: none !important;
+    }
+
+    .custom-in {
+        padding: 0px;
+    }
+
+    .appear700 {
+        display: block !important;
+    }
+
+    .problemcontainer {
+        padding-left: 0px !important ;
+        padding-right: 0px !important ;
+    }
+}
+
+.custom-btn {
+    margin: 4px;
+    padding: 18px !important;
+    font-size: 1.2rem !important;
+    background-color: rgb(240, 240, 255) !important;
+    color: blue !important;
+}
+
+.custom-btn:hover {
+    background-color: black !important;
+    color: white !important;
+    transition: 100ms;
+}
+
+.about {
+    font-size: 1.3rem;
+    margin: 40px 0px;
+    font-weight: 450;
+    letter-spacing: 0.3rem;
+    color: rgb(77, 77, 93);
+}
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: 750;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.textcent {
+    margin: 35px;
+    padding: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+.txtcent {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.servicecard {
+    flex: 20%;
+}
+
+/* graphics icon credits */
+.creditscontents {
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+    text-decoration: none !important;
+}
+
+.creditscontents a {
+    text-decoration: none !important;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.custom-services-image {
+    max-width: min-content;
+}
+
+.custom-services-image img {
+    max-width: 90px;
+}
+
+.c-point {
+    cursor: pointer;
+}
+
+/* signin/signup container */
+.signcontainer {
+    background: #fff;
+    max-width: 450px !important;
+    border-radius: 10px 10px 10px 10px;
+    padding: 30px;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+}
+
+.signcontainer h3.inactive {
+    color: #cccccc;
+}
+
+.signcontainer h3.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+}
+
+/* underline effect of signin/signup headings */
+.underlinehover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+}
+
+.underlinehover:hover {
+    color: #0d0d0d;
+}
+
+.underlinehover:hover:after {
+    width: 100%;
+}
+
+/* input fields of the singin/singup box */
+.inputfields {
+    background-color: #f6f6f6 !important;
+    color: #0d0d0d !important;
+    margin: 5px 0px !important;
+}
+
+.inputfields:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+}
+
+.inputfields:placeholder {
+    color: #cccccc;
+}
+
+.tdec-none {
+    text-decoration: none !important;
+}
+
+/* change width of the singin/singup container by media query */
+.wid-conv {
+    width: 100% !important;
+}
+
+@media screen and (min-width:1000px) {
+    .wid-50 {
+        width: 50% !important;
+    }
+
+}
+
+.card-deck h5 {
+    overflow-wrap: normal;
+}
+
+.h-min-content{
+    height: min-content !important;
+}
+
+.w-min-content{
+    width: min-content !important;
+}

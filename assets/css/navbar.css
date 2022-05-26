@@ -1,0 +1,52 @@
+.custom-logo{
+    max-height: 100px;
+    max-width: auto;
+}
+.custom-top-nav{
+    max-height: 110px;
+}
+.logotxt{
+    position: relative;
+    font-size: 2.2rem;
+    font-weight: 900;
+    top: 15px;
+    color: rgb(63, 63, 231);
+}
+.logotxt2{
+    position: relative;
+    font-size: 2.2rem;
+    font-weight: 900;
+    top: -5px;
+}
+.navbar-nav>li{
+    padding-left: 5px;
+}
+.navbar-nav>li>a{
+    color: black !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.navbar-nav>li>a:hover{
+    color: blue !important;
+    font-size: 1.4rem;
+    transition: 250ms;
+}
+.navbar-nav>.active>a{
+    color: blue !important;
+}
+.dropdown-menu>a:hover{
+    color: blue;
+    transition: ease-in-out 150ms;
+}
+#particles-js{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -10;
+}
+
+@media screen and (min-width:1275px) {
+    .navbar-nav>li{
+        padding-left: 20px;
+    }
+}

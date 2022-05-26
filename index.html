@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/searchpage.css">
+    <link rel="stylesheet" href="./assets/css/herotxt.css">
+    <link rel="stylesheet" href="./assets/css/faq.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>WORKPOCKET : Welcome</title>
+</head>
+<body>
+  <div id="top"></div>
+  <div class="p-3" id="particles-js"></div>
+    <!-- navbar -->
+    <div class="top-nav">
+      <div class="container-fluid text-nowrap">
+        <nav class="navbar navbar-expand-lg navbar-light mx-2">
+          <div class="row">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/images/logosqr.png" class="img-fluid custom-logo" alt="Responsive image"></a>
+            <h3 class="d-inline col"><p class="row logotxt">WORK</p><p class="row logotxt2 my-0">POCKET</p></h3>
+          </div>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto navbar-nav2">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#abt">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us<span class="sr-only"></span></a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="registerasaprofessional.html">Register as a Professional<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item d-none">
+                  <a class="nav-link" href="signin.html">SignIn</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {Name of User}
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="javascript:;" onclick="openProfilePage('#viewbookings')"><i class="fa fa-calendar" aria-hidden="true"></i>&ensp;Bookings</span>
+                    <a class="dropdown-item" href="javascript:;" onclick="openProfilePage('#viewwishlist')"><i class="fa fa-list" aria-hidden="true"></i>&ensp;Wishlist</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="javascript:;" onclick="openProfilePage('#profiledetails')"><i class="fa fa-cog" aria-hidden="true"></i>&ensp;Settings</a>
+                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>&ensp;Logout</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </div>
+    <!-- Search bar at top which appears after scrolling -->
+    <div id="custom-top">
+      <div class="row">
+        <div class="col-7">
+          <input type="text" class="form-control btn-primary findin custom-btn" aria-label="Text input with segmented dropdown button" placeholder="Find Professionals">
+        </div>
+        <div class="col-2"><a class="btn btn-primary custom-btn" role="button" href="./searchpage.html">Search</a></div>
+        <div class="col-1 disappear"><a href="#"><img src="./assets/images/servicesimage/massage.png" class="img-fluid img-custom-top"></a></div>
+        <div class="col-1 disappear"><a href="#"><img src="./assets/images/servicesimage/mechanic.png" class="img-fluid img-custom-top"></a></div>
+        <div class="col-1 disappear"><a href="#"><img src="./assets/images/servicesimage/saloon.png" class="img-fluid img-custom-top"></a></div>
+      </div>
+    </div>
+    <!-- hero -->
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 disappear">
+            <div class="row"><img src="./assets/images/servicesimage/herologo.png" class="img-fluid custom-img"></div>
+            <div class="row">
+              <div class="content">
+                <h1 class="custom-animation">
+                    <span class="letters letters-1">#Cheaper</span>
+                    <span class="letters letters-2">#AtYourOwnPrice</span>
+                    <span class="letters letters-3">#WorkPocket</span>
+                    <span class="letters letters-4">#24/7</span>
+                    <span class="letters letters-5">#Faster</span>
+                    <span class="letters letters-6">#Better</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 heroresponsive">
+            <div class="row ">
+              <div>
+                <h1 class=" p-3 herotxt text-light">We provide home services to your doorstep at Your Own Price</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group ">
+                <button type="button" class="btn btn-primary dropdown-toggle custom-btn" data-toggle="dropdown" aria-expanded="false">
+                  <span>Select city</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Chandiagrh</a></li>
+                  <li><a class="dropdown-item" href="#">Rajpura</a></li>
+                  <li><a class="dropdown-item" href="#">Ambala</a></li>
+                </ul>
+                <input type="text" class="form-control findin custom-btn" aria-label="Text input with segmented dropdown button" placeholder="Find Professionals">
+              </div>
+            </div>
+            <div class="row" >
+              <div class="buttons text-center custom-in"><a class="btn btn-primary custom-btn" role="button" href="./uploadproblem.html">Search</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About us -->
+    <div class="m-2" id="abt">
+      <div class="container">
+        <div class="row about">What Do We Do</div>
+        <div class="row">Workpocket is an application that helps customers to book reliable & high-quality services- electrician, plumber, mechanic, welder, carpenter, househelper, painter, car wash, construction labour and more delivered by trained professionals conveniently at home. Our main vision is to provide our customers quickest, self-negotiable, reliable and high-quality service. All the professionals are expert in their field and will provide you satisfactory service.</div>
+      </div>
+    </div>
+    <!--Center text-->
+    <div class=" top-nav">
+      <div class="textcent">
+        <span>
+            We're trusted by organisations big and small
+        </span>
+        <br><br>
+        <span>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2">
+              </div>
+              <div class="col-sm-8 txtcent">
+                We're proud to build long-lasting relationships with organisations that are amongst the best in their industries. Our very first clients, continue to work with us today.
+              </div>
+              <div class="col-sm-2">
+              </div>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- why us -->
+    <div class="container scroll-anim">
+      <h4 class="mb-5 heading">Why Us</h4>
+      <!-- first card -->
+      <div class="card-deck">
+        <div class="card border-0">
+          <a role="button" class="collapsed tdec-none text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="location.href='#collapseOne'" aria-expanded="false" aria-controls="collapseOne">
+          <img class="card-img-top custom-img-whyus" src="./assets/images/servicescards/24h-7.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">24 Hrs Services</h5>
+          </div>
+        </a>
+        </div>
+        <div class="card border-0">
+          <a role="button" class="collapsed tdec-none text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="location.href='#collapseTwo'" aria-expanded="false" aria-controls="collapseOne">
+          <img class="card-img-top custom-img-whyus" src="./assets/images/servicescards/money.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Negotiate Yourself</h5>
+          </div>
+          </a>
+        </div>
+        <div class="card border-0">
+          <a role="button" class="collapsed tdec-none text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" onclick="location.href='#collapseThree'" aria-expanded="false" aria-controls="collapseOne">
+          <img class="card-img-top custom-img-whyus" src="./assets/images/servicescards/vaccine.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Fully Vaccinated Staff</h5>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Services with cards -->
+    <div class="container">
+      <h2 class="mt-5 text-center mb-4">Services We Offer</h2>
+      <!-- first card -->
+
+      <div class="card-deck d-flex justify-content-center align-items-center">
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Electrician')">
+          <img class="card-img-top" src="./assets/images/servicesimage/electrician.png" alt="Electrician Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Electrician</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Plumber')">
+          <img class="card-img-top" src="./assets/images/servicesimage/plumber.png" alt="Plumber Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Plumber</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Mechanic')">
+          <img class="card-img-top" src="./assets/images/servicesimage/mechanic.png" alt="Mechanic Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Mechanic</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Welder')">
+          <img class="card-img-top" src="./assets/images/servicesimage/welder.png" alt="Welder Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Welder</h5>
+          </div>
+        </div>
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Carpenter')">
+          <img class="card-img-top" src="./assets/images/servicesimage/carpenter.png" alt="Carpenter Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Carpenter</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck d-flex justify-content-center align-items-center">
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Househelp')">
+          <img class="card-img-top" src="./assets/images/servicesimage/househelp.png" alt="Househelp Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Househelp</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Painter')">
+          <img class="card-img-top" src="./assets/images/servicesimage/painter.png" alt="Painter Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Painter</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Gardener')">
+          <img class="card-img-top" src="./assets/images/servicesimage/gardener.png" alt="Gardener Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Gardener</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Carwash')">
+          <img class="card-img-top" src="./assets/images/servicesimage/carwash.png" alt="Carwash Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Carwash</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Driver')">
+          <img class="card-img-top" src="./assets/images/servicesimage/driver.png" alt="Driver Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Driver</h5>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="card-deck d-flex justify-content-center align-items-center">
+          <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Saloon')">
+            <img class="card-img-top" src="./assets/images/servicesimage/saloon.png" alt="Saloon Image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Saloon</h5>
+            </div>
+          </div>
+          <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Construction Labor')">
+            <img class="card-img-top" style="margin-left: 20%;" src="./assets/images/servicesimage/labor.png" alt="Construction Labor Image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Construction Labor</h5>
+            </div>
+          </div>
+          <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Tiles and Marbel Worker')">
+            <img class="card-img-top" style="margin-left: 25%;" src="./assets/images/servicesimage/tilemarbelworker.png" alt="Tiles and Marbel Worker Image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Tiles&nbsp;&&nbsp;Marbel Worker</h5>
+            </div>
+          </div>
+          <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('POP Designer')">
+            <img class="card-img-top" src="./assets/images/servicesimage/popdesigner.png" alt="POP Designer Image">
+            <div class="card-body">
+              <h5 class="card-title text-center">POP Designer</h5>
+            </div>
+          </div>
+          
+  
+          </div>
+
+          <div class="card-deck d-flex justify-content-center align-items-center">
+            <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Lock Fixer')">
+              <img class="card-img-top" style="margin-left: 25%;" src="./assets/images/servicesimage/lockfixer.png" alt="Lock Fixer Image">
+              <div class="card-body">
+                <h5 class="card-title text-center">Lock&nbsp;Fixer</h5>
+              </div>
+            </div>
+            <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openTheService('Pick and Drop')">
+              <img class="card-img-top" style="margin-left: 20%;" src="./assets/images/servicesimage/pickdrop.png" alt="Pick and Drop Image">
+              <div class="card-body">
+                <h5 class="card-title text-center">Pick&nbsp;and&nbsp;Drop</h5>
+              </div>
+            </div>
+          </div>
+
+          
+      <h4 class="mt-5 mb-5 heading">Monthly Paid Services</h4>
+
+      <div class="card-deck d-flex justify-content-center align-items-center">
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('House Maid','housemaid.png')">
+          <img class="card-img-top" src="./assets/images/servicesimage/housemaid.png" alt="Housemaid Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">House Maid</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('Kitchen Maid','kitchenmaid.png')">
+          <img class="card-img-top" src="./assets/images/servicesimage/kitchenmaid.png" alt="Kitchen Maid Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kitchen Maid</h5>
+          </div>
+        </div>
+
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('Laundry Maid','laundrymaid.png')">
+          <img class="card-img-top" src="./assets/images/servicesimage/laundrymaid.png" alt="Laundry Maid Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Laundry Maid</h5>
+          </div>
+        </div>
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('Nurse','nurse.png')">
+          <img class="card-img-top" src="./assets/images/servicesimage/nurse.png" alt="Nurse Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nurse</h5>
+          </div>
+        </div>
+        <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('Care Taker','caretaker.png')">
+          <img class="card-img-top" src="./assets/images/servicesimage/caretaker.png" alt="Care Taker Maid Image">
+          <div class="card-body">
+            <h5 class="card-title text-center">Care Taker</h5>
+          </div>
+        </div>
+        </div>
+
+        <div class="card-deck d-flex justify-content-center align-items-center">
+
+          <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('Driver','driver.png')">
+            <img class="card-img-top" src="./assets/images/servicesimage/driver.png" alt="Driver Image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Driver</h5>
+            </div>
+          </div>
+          <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('Gardener','gardener.png')">
+            <img class="card-img-top" src="./assets/images/servicesimage/gardener.png" alt="Gardener Image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Gardener</h5>
+            </div>
+          </div>
+          <div class="card custom-services-image  c-point border-0" id="serviceblock" onclick="openMonthlyService('Carwash','carwash.png')">
+            <img class="card-img-top" src="./assets/images/servicesimage/carwash.png" alt="Carwash Image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Carwash</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--FAQ Section-->
+<section id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title text-center wow zoomIn">
+              <h1>Frequently Asked Questions</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="faqdiv">				
+          <div class="col-md-12">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      What is 24hrs service?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <p>24/7 service is the service that is available at any time and usually, every day. We here at workpocket provide you 24/7 service.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What do you mean by Negotiate Yourself? 
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <p>It means you can directly communicate with our professionals and negotiate the price for the service you require.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Are the professionals fully Vaccinated ?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <p>Yes, all our professionals are fully vaccinated and fit to provide you service at your doorsteps.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Can I post my personal budget price range ?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    <p>Yes, you can fix the price range of the service you are willing to take.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      How fast can I get response for my request ?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    <p>We believe in providing quick service. Your request will be addressed by our professional within 10-15 mins.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!--- END COL -->		
+        </div><!--- END ROW -->			
+      </div>
+    </section>
+
+      <!-- footer bootstarp -->
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted custom-foot">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <a href="#"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <a href="#"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <a href="https://www.youtube.com/channel/UC5pGTC4MAFc14mS-DeEfn6w"><img src="https://img.icons8.com/color/48/000000/youtube.png"/></a>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <a href="https://www.instagram.com/_workpocket_/"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <img src="./assets/images/favicon.png" class="img-fluid custom-logo" alt="Responsive image"><span class="logotxt">WORK</span><span class="logotxt" style="color: black;">POCKET</span>
+                </h6>
+                <p>
+                  We provide local services. We offer the best prices. 
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Services
+                </h6>
+                <p>
+                  <a href="./monthlypaidservices.html" class="text-reset">Hire a Professional</a>
+                </p>
+                <p>
+                  <a href="./registerasaprofessional.html" class="text-reset">Register as Professional</a>
+                </p>
+                <p>
+                  <a href="./teams.html" class="text-reset">Team</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Legacy</a>
+                </p>
+                <p>
+                  <a href="#!" class="c-point text-reset" id="creditsboxtext">Graphic Icons Credits</a>
+                </p>
+              </div>
+              <!--Graphic Icons Credit Box-->
+              <div id="creditbox" class="creditbox" style="display:none">
+                <div class="creditscontents">
+                    <a href="javascript:;" class="float-right" id="close">Close</a><br>
+                    <div class="d-flex flex-column">
+                    <a href="https://www.flaticon.com/free-icons/electrician" title="electrician icons">Electrician icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/plumber" title="plumber icons">Plumber icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/mechanic" title="mechanic icons">Mechanic icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/welder" title="welder icons">Welder icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/worker" title="worker icons">Worker icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/maid" title="maid icons">Maid icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/painter" title="painter icons">Painter icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/gardener" title="gardener icons">Gardener icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/car-wash" title="car wash icons">Car wash icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/driver" title="driver icons">Driver icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/hairdresser" title="hairdresser icons">Hairdresser icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/housekeeping" title="housekeeping icons">Housekeeping icons created by Eucalyp - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/cleaning-service" title="cleaning service icons">Cleaning service icons created by Eucalyp - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/laundry" title="laundry icons">Laundry icons created by Eucalyp - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/woman" title="woman icons">Woman icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/photo" title="photo icons">Photo icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/film" title="film icons">Film icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/mic" title="mic icons">Mic icons created by Maxim Basinski Premium - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/carpenter" title="carpenter icons">Carpenter icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/labor" title="labor icons">Labor icons created by Eucalyp - Flaticon</a>
+                    <a href="https://www.kindpng.com/imgv/iwimRR_false-ceiling-icon-png-transparent-png/">False Ceiling icon - Kindpng</a>
+                    <a href="https://stock.adobe.com/in/images/lock-repair-logo-icon-design/200185762">Lock Icon - Adobe Stock</a>
+                    <a href="https://www.flaticon.com/free-icons/delivery-man" title="delivery man icons">Delivery man icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/move" title="move icons">Move icons created by Nikita Golubev - Flaticon</a>
+                  </div>
+                </div>
+            </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#abt" class="text-reset">About</a>
+                </p>
+                <p>
+                  <a href="#top" class="text-reset">Go to the Top</a>
+                </p>
+                <p>
+                  <a href="#!" onclick="openProfilePage('#viewbookings')" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="./faq.html" class="text-reset">Help</a>
+                </p>
+                <p>
+                  <a href="./contact.html">Write to us</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact
+                </h6>
+                <p><i class="fas fa-home me-3"></i>Rajpura, Punjab, 140101, India</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  workpocket24x7@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i>+91 872637183</p>
+                <p><i class="fas fa-print me-3"></i> +91 346578436</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="">WORKPOCKET.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="./assets/js/herotxt.js"></script>
+    <script src="./assets/js/particle.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/credits.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/faq.js"></script>
+    <script src="./assets/js/scrollreveal.js"></script>
+</body>
+</html>

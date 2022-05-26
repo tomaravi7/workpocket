@@ -1,0 +1,53 @@
+#servicetype{
+  font: 2rem;
+  font-weight: 700;
+}
+
+.professionallisting {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 50px !important;
+  }
+  
+  .professionallisting:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+  }
+  
+  .text-center-md {
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  @media only screen and (min-width:992px) {
+  
+    .text-center-md {
+    text-align:left;justify-content:flex-start;
+      align-items:stretch;
+  }
+  
+  }
+  
+  
+  #bookingbox {
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+  }
+  
+  #innerdivbooking{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 50px;
+  }
+  
+  #profileicon{
+    min-width: 115px;
+  }

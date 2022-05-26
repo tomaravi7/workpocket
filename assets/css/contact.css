@@ -1,0 +1,27 @@
+
+/* .custom-back{
+    background-image: url(../images/contact/undraw_contact_us_re_4qqt.svg);
+    background-repeat: repeat;
+    background-position: left;
+} */
+.contacthead{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.contactaddress{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.selectheading{
+    font-size: 1.9rem;
+}
+.glass{
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 15px 25px rgba(18, 20, 145, 0.2);
+    height: auto;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(56, 49, 148, 0.2);
+    padding: 10px;
+}

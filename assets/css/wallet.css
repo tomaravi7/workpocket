@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+}
+.img-user{
+    height: 130px;
+    width: auto;
+    border-radius: 25%;
+}
+.cstm-heading{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.cstm-txt{
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    color: aliceblue;
+}
+.txt-cstm{
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+}
+.glass{
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 15px 25px rgba(56, 49, 148, 0.4) !important;
+    border-radius: 15px !important;
+    backdrop-filter: blur(5px);
+    background-color: rgba(56, 49, 148, 0.4) !important;
+    padding: 10px ;
+}
+.current-balance{
+    background-color: rgb(107,56,252,0.5);
+    margin: 15px;
+    padding: 25px;
+    color: aliceblue;
+}
+.monthly-earning{
+    background-color: rgb(107,56,252,0.5) ;
+    margin: 15px;
+    padding: 25px;
+    color: aliceblue;
+}
+.recieve-btn{
+    font-size: 1.2rem;
+    font: 500;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 2px wheat solid;
+    padding: 15px;
+    background-color: rgb(85,38,218,0.5);
+}
+.recieve-btn:hover{
+    font-weight: 700;
+    color: rgb(85,38,218,0.5);
+    border-radius: 5px;
+    border: 2px wheat solid;
+    background-color: aliceblue;
+}
+.balance{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.recent-transactions{
+    background-color: rgb(85,38,218,0.5);
+    margin: 15px;
+    padding: 25px;
+}
+.card-transaction{
+    background-color: rgb(107,56,252,0.5);
+    color: aliceblue;
+}
+.img-back{
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+    background-image: url(../images/undraw_profile_re_4a55.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.transaction-icon{
+    max-height: 35px;
+    max-width: 35px;
+}
+.confine{
+    max-height: min-content !important;
+}

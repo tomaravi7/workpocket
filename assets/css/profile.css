@@ -1,0 +1,57 @@
+.detailscontainer{
+    z-index: 222;
+    position: absolute;
+    height: min-content;
+    width: min-content;
+    max-width: 100% !important;
+}
+
+
+.glass1 {
+    box-shadow: 0 15px 25px rgba(18, 20, 145, 0.2);
+    border-radius: 5px;
+    z-index: -1;
+    background-color: rgba(56, 49, 148, 0.2);
+    position: absolute;
+    backdrop-filter: blur(15px);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.profile-edit-btn:hover {
+    color: black !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.servicescard {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent !important;
+    border: 0 solid rgba(0,0,0,.125);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
